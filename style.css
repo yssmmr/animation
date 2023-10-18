@@ -11,10 +11,11 @@ body {
 
 span{
   position: absolute;
-  background: url(いいねon.png);
+  background: url(heart.png);
   pointer-events: none;
-  width: 100px;
-  height: 100px;
+  width: 50px;
+  height: 50px;
+  background-size: cover;
   transform: translate(-50%,-50%);
   animation: animate 2s linear infinite;
 }
